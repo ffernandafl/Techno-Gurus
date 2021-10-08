@@ -180,6 +180,9 @@ nav {
 .div-iz-inf-iz {
     float: left;
     margin-left: var(--margen);
+    align-items: center;
+    display:flex;
+    justify-content: center;
 }
 
 .div-iz-inf-iz-p {
