@@ -107,6 +107,12 @@ nav {
         font-size: 24;
     }
 
+    #icono-div-iz-inf {
+        display: flex;
+        justify-content: right;
+        margin:var(--margen)
+    }
+
 .botones {
     width: 500px;
     height: 100px;
@@ -114,18 +120,18 @@ nav {
     margin: 50px;
 }
 
-.botones-form button {
+.botones-container button {
     width: 175px;
     height: 75px;
     border: 3px solid gray;
     border-radius: 56px;
     float: right;
  } 
-.boton-izquierdo {
+.boton-derecho {
     margin: var(--margen);
     margin-right: 0%;
 } 
-.boton-derecho {
+.boton-izquierdo {
     margin:var(--margen)
 }
 
@@ -134,7 +140,7 @@ nav {
      font-size: 60px;
  }
 
-.text-button {
+.boton-texto {
     margin-left: -25%;
     margin-bottom: -30px;
     font-size: 30px;
