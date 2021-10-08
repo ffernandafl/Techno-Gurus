@@ -1,0 +1,156 @@
+:root {
+    --margen:2%;
+}
+#contenedor {
+    margin-left: var(--margen);
+    margin-right: var(--margen);
+    margin-bottom: var(--margen);
+} 
+/* HEADER */
+#main-header {
+    /*background: #010101;*/
+    /* color: white; */
+    height: 70px;
+    margin: var(--margen);
+    justify-content: center;
+    padding: 5px;
+}	
+    /* #main-header a {
+        color: white;
+    } */
+#icono-header {
+    width: 64px;
+    height: 64px;
+    color: black;
+    float:left;
+    margin-left: var(--margen);
+    
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    float:left;
+    margin: var(--margen);
+    font-size:100px;
+    padding:10px;
+    
+}
+
+.container {
+    margin: 5px 10px;
+}
+
+.div-iz {
+    border: 3px solid black;
+    border-radius: 56px;
+    margin: var(--margen);
+    margin-right: (var(--margen))/2;
+    /* height: 550px; */
+}
+    .div-iz h3 {
+        margin-left: 70px;
+        margin-top: 18px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 48;
+    }
+
+    .div-iz p {
+        margin-left: 70px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 24;
+    }
+
+#icono-div-iz {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 46px;
+    height: 46px;
+    float: left;
+}
+.div-der {
+    border: 3px solid black;
+    border-radius: 56px;
+    margin: 1%;
+    margin-left: (var(--margen))/2;
+    /* height: 400px; */
+}
+
+    .div-der h3 {
+        margin-left: 70px;
+        margin-top: 18px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 48;
+    }
+
+    .div-der p {
+        margin-left: 70px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 24;
+    }
+
+    #icono-div-iz-inf {
+        display: flex;
+        justify-content: right;
+        margin:var(--margen)
+    }
+
+.botones {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin: 50px;
+}
+
+.botones-container button {
+    width: 175px;
+    height: 75px;
+    border: 3px solid gray;
+    border-radius: 56px;
+    float: right;
+ } 
+.boton-derecho {
+    margin: var(--margen);
+    margin-right: 0%;
+} 
+.boton-izquierdo {
+    margin:var(--margen)
+}
+
+ .kiss-inf {
+     margin:1.25%;
+     font-size: 60px;
+ }
+
+.boton-texto {
+    margin-left: -25%;
+    margin-bottom: -30px;
+    font-size: 30px;
+}
+
+.icon-buttons {
+    float: right;
+    height: 40px;
+}
+.p-inputs{
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+}
+.inputs{
+    margin: var(--margen);
+}
+input{
+    display: block;
+    height: 75px;
+    width: 350px;
+    border-radius:56px;
+    text-align: center;
+    font-size: 100px;
+}
+.pin{
+    align-items: left;
+    margin:0 auto;
+}
+.home-kiss{
+    border-color: gray;
+    border-style: dashed;
+}
