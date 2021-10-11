@@ -170,6 +170,7 @@ input{
     border-radius:56px;
     text-align: center;
     font-size: 100px;
+    font-family: 'Roboto Slab', serif;
 }
 .pin{
     align-items: left;
