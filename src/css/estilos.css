@@ -144,6 +144,7 @@ nav {
     margin-left: -25%;
     margin-bottom: -30px;
     font-size: 30px;
+    background-color: white;
 }
 
 .icon-buttons {
@@ -165,8 +166,8 @@ nav {
 }
 .kiss-index {
     font-family: 'Playfair Display', serif;
-    font-size: 96px;
-    /* margin: var(--margen);
+    font-size: 96px;/* 
+    margin: var(--margen);
     font-size:50px;
     padding:10px; */
 }
@@ -182,13 +183,108 @@ nav {
     margin-left: var(--margen);
     align-items: center;
     display:flex;
-    justify-content: center;
+    justify-content: left;
 }
 
-.div-iz-inf-iz-p {
-    font-family: 'Roboto Slab', serif;
-    font-size: 24;
-    display: flex;
-    align-items: left;
-    margin-bottom: 20px;
+.div-iz-inf-iz p {
+    margin-left: var(--margen);
 }
+
+/* .div-iz-car {
+    border: none;
+} */
+
+.div-iz-carrusel {
+    border: 3px solid black;
+    /* border:none */
+    border-radius: 56px;
+    margin: var(--margen);
+    margin-right: (var(--margen))/2;
+}
+
+.texto-carrusel {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24;   
+    float:left;
+    margin-top: 8px;
+}
+
+/* SUSCRIPCIÓN */
+.botones-container-return button {
+    width: 175px;
+    height: 75px;
+    border: 3px solid gray;
+    border-radius: 56px;
+    float: right;
+    margin-bottom: -10px;
+    margin-top: -13px;
+ } 
+#formulario {
+    display: flex;
+    justify-content: space-between;
+}
+.form-iz {
+    display: inline-block;
+    justify-content: left;
+    margin-left: 40px;
+}
+.form-der {
+    display: inline-block;
+    justify-content: right;
+    margin-right: var(--margen);
+}
+.suscripcion-formato-input {
+    border: 3px solid black;
+    border-radius: 56px;
+    width: 350px;
+    height: 75px;
+    margin: var(--margen);
+}
+
+        /* pag 2 */
+
+.suscripcion-formato-input-pag-2 {
+    border: 3px solid black;
+    border-radius: 56px;
+    width: 600px;
+    height: 75px;
+    margin: var(--margen);
+}
+
+.boton-derecho-suscripcion {
+    margin: var(--margen);
+    margin-right: 0%;
+} 
+
+.botones-container-suscripcion {
+    display: flex;
+    justify-content: space-between;
+}
+.botones-container-suscripcion button {
+    height: 50px;
+    border: none;
+    float: right;
+}
+
+.texto-inf {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24;   
+    float:left;
+    margin-top: 8px;
+}
+
+        /* confirmación */
+.suscripcion-formato-input-pag-confirm {
+    border: 3px solid black;
+    border-radius: 56px;
+    width: 200px;
+    height: 75px;
+}
+
+/* .div-iz-inf-iz-suscripcion {
+    float: left;
+    margin-left: var(--margen);
+    align-items: center;
+    display:flex;
+    justify-content: left;
+} */
