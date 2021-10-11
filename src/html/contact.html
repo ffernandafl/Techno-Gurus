@@ -18,26 +18,21 @@
 <body>
     <!-- HEADER -->
     <div id="contenedor">
-        <header id="main-header">
-            <!-- ícono header -->
-            <img id="icono-header" src="../svg/btn-inferior/contact.svg" />
-            <h1>contact</h1>
-            <nav>
-                <ul id="lista">
-                     <li id="icono-header-der">
-                         <!-- <img id="icono-header-der" src="../src/svg/btn-inferior/return.svg" />  -->
-                         <div class="botones-container">
-                            <button class="boton-derecho">
-                                <h1 class="boton-texto">return</h1>
-                                <img id="r" src="../svg/btn-inferior/return.svg" />
-                            </button>
-                            
-                        </div>
-                    </li>                     
-                </ul>
+        <header class ="row" >
+            <div class="col-1"></div>
+            
+            <div class="col-5" id= "menu-sup">
+                <img id="icono-header" src="../svg/btn-inferior/contact.svg"/>
+                <h1>contact</h1>
+            </div>
+
+            <div class="col-5">
                 
-            </nav>
+
+            </div> 
+           
         </header>
+        
 
         <!-- CONTENEDOR -->
 
@@ -66,10 +61,11 @@
                             <input style="margin: 10%; font-size: 30px;" type="email" name="email" placeholder="email"/>
                             <input style="margin: 10%; font-size: 35px;" type="asunto" name="asunto" placeholder="asunto"/>
                         </div>
+
                     </div>
                     
                     <div  id="icono-div-iz-inf">
-                        <img src="../svg/accion/recorded.svg" />
+                        <img src="../svg/accion/send.svg" />
                     </div>
                     
                     
@@ -79,16 +75,18 @@
 
         </div>
         <!-- FOOTER/NAV BAR -->
-        <div>
-            <h1>kiss</h1>
-            <div class="botones-container">
-                <button class="boton-derecho">
-                    <h1 class="boton-texto">enviar</h1>
-                    <!-- <img class="icon-buttons" src="../src/svg/btn-inferior/lobby.svg" /> -->
-                </button>
-                
+        <div class="row">
+            <div class="col-1"> </div>
+
+            <div class="col-5">
+                <h1>kiss</h1>
             </div>
+            <div class="col-5">
+            </div>
+
+
         </div>
+
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
