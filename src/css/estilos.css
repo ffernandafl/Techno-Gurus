@@ -169,8 +169,8 @@ nav {
 }
 .kiss-index {
     font-family: 'Playfair Display', serif;
-    font-size: 96px;/* 
-    margin: var(--margen);
+    font-size: 100px;
+    /*margin: var(--margen);
     font-size:50px;
     padding:10px; */
 }
