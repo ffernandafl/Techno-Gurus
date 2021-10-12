@@ -5,7 +5,7 @@
     margin-left: var(--margen);
     margin-right: var(--margen);
     margin-bottom: var(--margen);
-} 
+}
 /* HEADER */
 #main-header {
     /*background: #010101;*/
@@ -14,7 +14,7 @@
     margin: var(--margen);
     justify-content: center;
     padding: 5px;
-}	
+} 	
     /* #main-header a {
         color: white;
     } */
@@ -62,6 +62,7 @@ nav {
 .div-iz {
     border: 3px solid black;
     border-radius: 56px;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     margin: var(--margen);
     margin-right: (var(--margen))/2;
     /* height: 550px; */
@@ -89,6 +90,7 @@ nav {
 .div-der {
     border: 3px solid black;
     border-radius: 56px;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     margin: 1%;
     margin-left: (var(--margen))/2;
     /* height: 400px; */
@@ -124,12 +126,14 @@ nav {
     width: 175px;
     height: 75px;
     border: 3px solid gray;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 56px;
     float: right;
  } 
 .boton-derecho {
     margin: var(--margen);
     margin-right: 0%;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
 } 
 .boton-izquierdo {
     margin:var(--margen)
@@ -144,7 +148,6 @@ nav {
     margin-left: -25%;
     margin-bottom: -30px;
     font-size: 30px;
-    background-color: white;
 }
 
 .icon-buttons {
@@ -198,6 +201,7 @@ nav {
     border: 3px solid black;
     /* border:none */
     border-radius: 56px;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     margin: var(--margen);
     margin-right: (var(--margen))/2;
 }
