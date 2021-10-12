@@ -188,3 +188,7 @@ input{
 #menu-sup{
     display: flex;
 }
+
+.entrada{
+    font-family:'Roboto Slab', serif;
+}
