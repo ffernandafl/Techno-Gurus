@@ -166,7 +166,7 @@ nav {
 input{
     display: block;
     height: 75px;
-    width: 500px;
+    /*width: 500px;*/
     border-radius:56px;
     text-align: center;
     font-size: 100px;
@@ -191,4 +191,21 @@ input{
 
 .entrada{
     font-family:'Roboto Slab', serif;
+}
+
+@media (min-width: @screen-sm-min) { 
+    input{
+        width: 15px;
+    }
+ }
+
+@media screen and (min-width: 481px)and(max-width: 1000px){
+    input{
+        width: 15px;
+    }
+}
+
+
+@media screen and (min-width: 1001px){
+    
 }
