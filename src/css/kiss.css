@@ -44,8 +44,8 @@ h1 {
     border: 2px solid black;
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    margin: var(--margen);
-    margin-right: (var(--margen))/2;
+    margin-right: -1%;
+    /* margin-right: (var(--margen))/2; */
     /* height: 550px; */
 }
     .div-iz h3 {
@@ -74,7 +74,7 @@ h1 {
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     margin: 1%;
-    margin-left: (var(--margen))/2;
+    /* margin-left: var(--margen); */
     /* height: 400px; */
 }
 
@@ -175,3 +175,9 @@ input{
         }
     }
  */
+
+@media  (min-width: 576px) {
+    #icono-header-der {
+        float: left;
+    }
+}
