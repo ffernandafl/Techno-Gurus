@@ -87,6 +87,7 @@ nav {
     float: left;
 }
 .div-der {
+    
     border: 3px solid black;
     border-radius: 56px;
     margin: 1%;
@@ -157,16 +158,21 @@ nav {
 
 .p-inputs{
     display: flex;
-    justify-content: right;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     margin-right: 10%;
 }
 .inputs{
-    margin: var(--margen);
+    display: flex;
+    flex-direction: column;
 }
 input{
-    display: block;
-    height: 75px;
+    /*display: block;
+    height: 75px;*/
     /*width: 500px;*/
+    margin: 10%;
     border-radius:56px;
     text-align: center;
     font-size: 100px;
@@ -191,21 +197,12 @@ input{
 
 .entrada{
     font-family:'Roboto Slab', serif;
+    margin: 10%;
+    font-size: 30px;
 }
 
-@media (min-width: @screen-sm-min) { 
-    input{
-        width: 15px;
-    }
- }
-
-@media screen and (min-width: 481px)and(max-width: 1000px){
-    input{
-        width: 15px;
-    }
-}
-
-
-@media screen and (min-width: 1001px){
-    
-}
+  @media (max-width: 575.98px) { 
+    body {
+        background-color: lightblue;
+      }
+  }
