@@ -68,6 +68,7 @@ h1 {
     height: 46px;
     float: left;
 }
+
 .div-der {
     border: 2px solid black;
     border-radius: 56px;
@@ -158,3 +159,19 @@ input{
     border-color: gray;
     border-style: dashed;
 }
+
+/* 
+    @media only screen and (max-width: 700px) {
+        .row {
+            display: grid;
+            //grid-template-columns: 200px 350px;
+            grid-template-rows: 300px 400px;
+        }
+        .div-der {
+            grid-row: 1/2;
+        }
+        .div-iz {
+            grid-row: 2/3;
+        }
+    }
+ */
