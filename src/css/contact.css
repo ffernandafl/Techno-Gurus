@@ -1,24 +1,4 @@
-:root {
-    --margen:2%;
-}
-#contenedor {
-    margin-left: var(--margen);
-    margin-right: var(--margen);
-    margin-bottom: var(--margen);
-} 
-/* HEADER */
-#main-header {
-    /*background: #010101;*/
-    /* color: white; */
-    height: 70px;
-    margin: var(--margen);
-    justify-content: center;
-    padding: 5px;
-}	
-    /* #main-header a {
-        color: white;
-    } */
- #icono-header {
+#icono-header {
     width: 64px;
     height: 64px;
     color: black;
@@ -27,33 +7,12 @@
 h1 {
     font-family: 'Playfair Display', serif;
     float:left;
-    margin: var(--margen);
+    
     font-size:50px;
     padding:10px;
     
 }
 
-nav {
-        float: right;
-        margin-left: var(--margen);
-        padding: 5px;
-        padding-right: 0%;
-}       
-        nav ul li {
-                /* display: inline-block; */
-                
-                margin-right: 0%;
-        } 
-
-
-             
-/* #icono-header-der {
-    width: 50px;
-    height: 50px;
-    color: black;
-    float:right;
-    margin-right: -40%;
-} */
 
 .container {
     margin: 5px 10px;
@@ -62,9 +21,7 @@ nav {
 .div-iz {
     border: 3px solid black;
     border-radius: 56px;
-    margin: var(--margen);
-    margin-right: (var(--margen))/2;
-    /* height: 550px; */
+   
 }
     .div-iz h3 {
         margin-left: 70px;
@@ -90,8 +47,7 @@ nav {
     
     border: 3px solid black;
     border-radius: 56px;
-    margin: 1%;
-    margin-left: (var(--margen))/2;
+   
     /* height: 400px; */
 }
 
@@ -111,7 +67,7 @@ nav {
     #icono-div-iz-inf {
         display: flex;
         justify-content: right;
-        margin:var(--margen)
+        margin:2%;
     }
 
 .botones {
@@ -152,13 +108,9 @@ nav {
     height: 40px;
 }
 
-#lista{
-    list-style: none;
-}
 
 .p-inputs{
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items:center;
@@ -168,14 +120,10 @@ nav {
     display: flex;
     flex-direction: column;
 }
-input{
-    /*display: block;
-    height: 75px;*/
-    /*width: 500px;*/
-    margin: 10%;
+input{ 
     border-radius:56px;
     text-align: center;
-    font-size: 100px;
+    font-size: 30px;
     font-family: 'Roboto Slab', serif;
 }
 .pin{
@@ -201,8 +149,92 @@ input{
     font-size: 30px;
 }
 
-  @media (max-width: 575.98px) { 
-    body {
-        background-color: lightblue;
+   
+      /*Small devices (landscape phones, 576px and up)*/
+      @media (max-width: 767px) { 
+        p {
+            font-size: .75rem;
+        }
+
+        input{/*Tamaño de input*/
+            width: 13rem;
+        }
+
+        .div-iz{
+            margin-bottom: 3%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+        .div-der {
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
       }
-  }
+      
+      /*Medium devices (tablets, 768px and up)*/
+      @media (min-width: 768px) { 
+        p {
+            font-size: 1rem;
+        }
+        input{/*Tamaño de input*/
+            width: 20rem;
+        }
+
+        .div-iz{
+            margin-bottom: 1rem;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .div-der{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        
+       }
+      
+      /*Large devices (desktops, 992px and up)*/
+      @media (min-width: 992px) { 
+        p {
+            font-size: 1.2rem;
+        }
+
+        .entrada{
+            font-size: 1.5rem;
+        }
+           
+        input{
+            width: 18rem;
+        }
+
+        .div-der{
+            margin-left: 0rem;
+            margin-right: 0rem;
+        }
+        
+       }
+      
+      /* Extra large devices (large desktops, 1200px and up)*/
+      @media (min-width: 1200px) { 
+        p {
+            font-size: 1.3rem;
+        }
+
+        .entrada{ 
+            font-size: 2rem;
+        }
+
+        input{/*Tamaño de input*/
+            width: 20rem;
+        }
+        
+       }
+
+      
+
+  
+
+  
