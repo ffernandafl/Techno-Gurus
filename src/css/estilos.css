@@ -29,7 +29,6 @@
 h1 {
     font-family: 'Playfair Display', serif;
     float:left;
-    margin: var(--margen);
     font-size:50px;
     padding:10px;
     
@@ -63,9 +62,8 @@ nav {
     border: 3px solid black;
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    margin: var(--margen);
-    margin-right: (var(--margen))/2;
-    /* height: 550px; */
+    /* margin: var(--margen);
+    margin-right: (var(--margen))/2; */
 }
     .div-iz h3 {
         margin-left: 70px;
@@ -91,8 +89,8 @@ nav {
     border: 3px solid black;
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    margin: 1%;
-    margin-left: (var(--margen))/2;
+    /* margin: 1%;
+    margin-left: (var(--margen))/2; */
     /* height: 400px; */
 }
 
@@ -292,5 +290,4 @@ nav {
     display:flex;
     justify-content: left;
 } */
-
 
