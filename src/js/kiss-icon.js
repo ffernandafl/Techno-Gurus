@@ -10,7 +10,7 @@ window.onload=function(){
     }
     var elemento = document.getElementById("keep-it");
     elemento.onmouseover=function(e){
-        document.getElementById("description-icon").innerHTML="<br/><Keep it stupid: Es cuando estas grabando un kiss<br/> klipped: Es mirar el kiss del kisser con el que hicimos nuestro kiss.<br/> klip: icono de la carpeta de nuestros klipped";
+        document.getElementById("description-icon").innerHTML="<br/>Keep it stupid: Es cuando estas grabando un kiss<br/> klipped: Es mirar el kiss del kisser con el que hicimos nuestro kiss.<br/> klip: icono de la carpeta de nuestros klipped";
         document.getElementById("icono-title").innerHTML="keep it / klipped / klip"
     };
     elemento.onmouseout=function(e){
