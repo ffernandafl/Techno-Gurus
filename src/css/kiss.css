@@ -104,7 +104,7 @@ h1 {
     margin: 50px;
 }
 
-.botones-container button {
+.icon-buttons button {
     width: 175px;
     height: 75px;
     border: 2px solid gray;
@@ -131,7 +131,7 @@ h1 {
     font-size: 30px;
 }
 
-.icon-buttons {
+.footer{
     float: right;
     height: 40px;
 }
@@ -155,10 +155,7 @@ input{
     align-items: left;
     margin:0 auto;
 }
-.home-kiss{
-    border-color: gray;
-    border-style: dashed;
-}
+
 
 /* 
     @media only screen and (max-width: 700px) {
@@ -177,8 +174,6 @@ input{
  */
 
 
- 
-      /*Small devices (landscape phones, 576px and up)*/
       @media (max-width: 767px) { 
         p {
             font-size: .75rem;
@@ -267,4 +262,3 @@ input{
             width: 22rem;
         }
         
-       }
