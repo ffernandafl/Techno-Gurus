@@ -97,6 +97,11 @@ h1 {
         margin:var(--margen)
     }
 
+.libreta {
+    width: 100%;
+    left: -30px;
+}
+
 .botones {
     width: 500px;
     height: 100px;
