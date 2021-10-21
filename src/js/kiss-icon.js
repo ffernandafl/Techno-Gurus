@@ -26,7 +26,7 @@ window.onload=function(){
         document.getElementById("description-icon").innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis inventore eligendi consequatur voluptatum tenetur vel. Nulla autem, minus eligendi excepturi sed alias tenetur illum similique repudiandae, aliquid recusandae veniam fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis provident voluptates rerum voluptas, ipsum illum ab distinctio nisi saepe architecto animi? Provident commodi recusandae nobis,temporibus aspernatur corrupti a nemo.";
         document.getElementById("icono-title").innerHTML="paint"
     }
-    elemento = document.getElementById("kisses");
+    elemento = document.getElementById("krushes");
     elemento.onmouseover=function(e){
         document.getElementById("description-icon").innerHTML="Aqui podras ver todos tus krushes";
         document.getElementById("icono-title").innerHTML="krushes"
@@ -55,7 +55,7 @@ window.onload=function(){
     }
     elemento = document.getElementById("stupid");
     elemento.onmouseover=function(e){
-        document.getElementById("description-icon").innerHTML="";
+        document.getElementById("description-icon").innerHTML="Icono utilizado para logearte";
         document.getElementById("icono-title").innerHTML="stupid"
     };
     elemento.onmouseout=function(e){
