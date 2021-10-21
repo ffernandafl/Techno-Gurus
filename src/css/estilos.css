@@ -291,3 +291,14 @@ nav {
     justify-content: left;
 } */
 
+#btn-next-kiss{
+    background-color: transparent;  
+    border-color: transparent;
+}
+#next-kiss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
