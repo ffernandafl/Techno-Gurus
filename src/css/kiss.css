@@ -131,7 +131,7 @@ h1 {
     font-size: 30px;
 }
 
-.icon-buttons {
+.footer{
     float: right;
     height: 40px;
 }
@@ -151,14 +151,21 @@ input{
     text-align: center;
     font-size: 100px;
 }
+
+.komment-asunto {
+    display: block;
+    height: 75px;
+    width: 350px;
+    border-radius:56px;
+    text-align: center;
+    font-size: 20px;
+    margin:var(--margen);
+}
 .pin{
     align-items: left;
     margin:0 auto;
 }
-.home-kiss{
-    border-color: gray;
-    border-style: dashed;
-}
+
 
 /* prueba */
 /* header{
@@ -211,8 +218,94 @@ input{
     }
  */
 
-@media  (min-width: 576px) {
-    #icono-header-der {
-        float: left;
+
+      @media (max-width: 767px) { 
+        p {
+            font-size: .75rem;
+        }
+
+        input{/*Tamaño de input*/
+            width: 13rem;
+        }
+
+        .div-iz{
+            margin-bottom: 3%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+        .div-der {
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+      }
+      
+      /*Medium devices (tablets, 768px and up)*/
+      @media (min-width: 768px) { 
+        p {
+            font-size: 1rem;
+        }
+        input{/*Tamaño de input*/
+            width: 20rem;
+        }
+
+        .div-iz{
+            margin-bottom: 1rem;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .div-der{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .div-boton{
+            margin-left: 10%;
+            margin-right: 10%;
+        }      
+       }
+      
+      /*Large devices (desktops, 992px and up)*/
+      @media (min-width: 992px) { 
+        p {
+            font-size: 1.2rem;
+        }
+
+        .entrada{
+            font-size: 1.5rem;
+        }
+           
+        input{
+            width: 18rem;
+        }
+
+        .div-der{
+            margin-left: 0rem;
+            margin-right: 0rem;
+        }
+
+        .div-boton{
+            margin-left: 0;
+            margin-right: 0;
+        }   
+        
+       }
+      
+      /* Extra large devices (large desktops, 1200px and up)*/
+      @media (min-width: 1200px) { 
+        p {
+            font-size: 1.3rem;
+        }
+
+        .entrada{ /*letra input*/
+            font-size: 1.5rem;
+        }
+
+        input{/*Tamaño de input*/
+            width: 22rem;
+        }
+
+        
     }
-}
