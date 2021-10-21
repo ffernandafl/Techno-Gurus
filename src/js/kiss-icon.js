@@ -1,5 +1,5 @@
 window.onload=function(){
-    var elemento = document.getElementById("simple");
+    var elemento = document.getElementById("keep-it-stupid");
     elemento.onmouseover=function(e){
         document.getElementById("description-icon").innerHTML="El icono del vasito rojo te dirige a los kiss de tus kissers, aqui podras observar publicaciones de tus kissers";
         document.getElementById("icono-title").innerHTML="keep it stupid"
