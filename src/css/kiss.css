@@ -160,6 +160,41 @@ input{
     border-style: dashed;
 }
 
+/* prueba */
+/* header{
+    height: 19vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 80px;
+    /* background-color: springgreen;
+}
+
+#iconoYtitulo{
+    display: flex;
+    place-items: center;
+}
+
+#titulo-header{
+    display: grid;
+    justify-content: start;
+    place-items: center;
+}
+
+#btn-superior{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.btn-superior{
+    height: 30px;
+}
+.sombra{
+    border: 2px solid;
+    border-radius: 50px;
+    outline-color: black;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
+} */
+
 /* 
     @media only screen and (max-width: 700px) {
         .row {
