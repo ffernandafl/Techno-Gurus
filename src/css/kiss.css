@@ -97,6 +97,23 @@ h1 {
         margin:var(--margen)
     }
 
+.libreta {
+    background-image: url("../svg/libretaKiss.jpg");
+    background-size: 100% 100%;
+    background-position-x: -1rem;
+    /* background-position-y: ; */
+    background-repeat: no-repeat;
+    border: 0;
+    box-shadow: 0 0 0 0 transparent;
+    border-radius: 0;
+    padding: 12%;
+}
+.next-kiss{
+    left: -5rem;
+    display: grid;
+    align-items: center;
+}
+
 .botones {
     width: 500px;
     height: 100px;
