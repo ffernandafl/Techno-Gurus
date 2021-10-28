@@ -34,15 +34,19 @@
                     <p>
                         <div class="p-inputs">
                             <div class="inputs">
-                                <input style="margin: 10%; font-size: 35px;" type="text" name="name" placeholder="name"/>
-                                <input style="margin: 10%; font-size: 35px;" type="email" name="email" placeholder="email"/>
-                                <input style="margin: 10%; font-size: 35px;" type="password" name="password" placeholder="key"/>
+                                <form action="../html/first-hello-stupid.html" method="get">
+                                <input style="margin: 10%; font-size: 35px;" type="text" name="name" placeholder="name" id="name" required minlength="6"/>
+                                <input style="margin: 10%; font-size: 35px;" type="email" name="email" placeholder="email" id="email" required onclick="validarFormulario();"/>
+                                <input style="margin: 10%; font-size: 35px;" type="password" name="password" placeholder="key" id="key"
+                                    required minlength="6"/>
+                                    <input type="image" src="../svg/accion/recorded.svg" />
+                            </form>
                             </div>
                         </div>
                         <div  id="icono-div-iz-inf">
-                            <a href="../html/hello-stupid.html">
+                            <!-- <a href="../html/hello-stupid.html">
                                 <img src="../svg/accion/recorded.svg" />
-                            </a>
+                            </a> -->
                         </div>
                     </p>
                     

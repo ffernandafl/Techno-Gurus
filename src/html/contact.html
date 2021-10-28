@@ -42,17 +42,16 @@
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                 <div class="div-iz">
                     <img id="icono-div-iz" src="../svg/lectura/seen.svg" />
-                    <h3>team</h3>
+                    <h3>Hola! ¿Tienes dudas o sugerencias?  </h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque esse quasi sapiente quam
-                        <br />
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt maiores beatae amet,
-                        quo voluptatibus obcaecati optio cupiditate, officia est hic, libero inventore voluptas
-                        voluptatem nihil fugiat placeat modi debitis?
-                        <br /> <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veniam rem omnis neque voluptate,
-                        accusamus dolores ducimus similique iusto saepe excepturi, blanditiis debitis veritatis pariatur
-                        odio dolorem quisquam. Sed, eaque.
+                        
+                        <br/>
+                        El equipo Kiss estaremos encantad@s de resolver cualquier duda que tengas, así como escuchar 
+                        tus peticiones o sugerencias. 
+                        <br/><br/>Te contestaremos en un máximo de 48h. Muchas gracias por la
+                        comprensión!
+
+                        
                     </p>
                 </div>
             </div>
@@ -62,15 +61,17 @@
                 <div class="div-der">
                     <img id="icono-div-iz" src="../svg/lectura/recording.svg" />
                     <div class="p-inputs">
-                        <input class="entrada" type="text" name="name" placeholder="name" />
-                        <input class="entrada" type="email" name="email" placeholder="email" />
-                        <input class="entrada" type="asunto" name="asunto" placeholder="asunto" />
+                        <form action="../html/contact-2.html" method="get">
+                        <input class="entrada" type="text" name="name" placeholder="name" required minlength="6"/>
+                        <input class="entrada" type="email" name="email" placeholder="email" required onblur="validarFormulario();" />
+                        <input id ="asunto" class="entrada" type="asunto" name="asunto" placeholder="asunto" required minlength="25" />
+                        <div class="div-btn-enviar">
+                            <input id="btn-enviar" type="image" src="../svg/accion/send.svg"/>
+                        </div>
+                    </form>
                     </div>
-                    <div id="icono-div-iz-inf">
-                        <a style="color:black" href="../html/contact-2.html">
-                            <img src="../svg/accion/send.svg" />
-                        </a>
-                    </div>
+                    <!-- <div id="icono-div-iz-inf">
+                    </div> -->
                 </div>
             </div>
         </div>
