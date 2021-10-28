@@ -228,7 +228,6 @@ nav {
 .form-iz {
     display: inline-block;
     justify-content: left;
-    margin-left: 40px;
 }
 .form-der {
     display: inline-block;
@@ -248,8 +247,6 @@ nav {
 .suscripcion-formato-input-pag-2 {
     border: 3px solid black;
     border-radius: 56px;
-    width: 600px;
-    height: 75px;
     margin: var(--margen);
 }
 
@@ -283,6 +280,13 @@ nav {
     height: 75px;
 }
 
+.p-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-right: 10%;
+}
 /* .div-iz-inf-iz-suscripcion {
     float: left;
     margin-left: var(--margen);
