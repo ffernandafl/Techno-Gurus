@@ -147,9 +147,17 @@ input{
 
 .entrada{
     font-family:'Roboto Slab', serif;
-    margin: 10%;
+    margin: 5%;
     font-size: 30px;
 }
+
+.div-btn-enviar{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-right: 10%;
+}
+
 
    
       /*Small devices (landscape phones, 576px and up)*/
@@ -179,6 +187,13 @@ input{
       }
       #asunto{
           height: 150px;
+      }
+      #btn-enviar{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 46px;
+        height: 60px;
+        float: left;
       }
       
       /*Medium devices (tablets, 768px and up)*/
@@ -244,7 +259,7 @@ input{
         }
 
         input{/*Tamaño de input*/
-            width: 22rem;
+            width: 26rem;
         }
         
        }
