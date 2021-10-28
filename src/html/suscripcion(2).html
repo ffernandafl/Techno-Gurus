@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Roboto+Slab:wght@500&display=swap"
         rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>suscription</title>
 </head>
 
@@ -46,39 +48,31 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque esse quasi sapiente quam
                         quisquam dolore accusamus adipisci similique voluptatem, id minus eius saepe fugit cum error
-                        maiores expedita earum? Unde.
-                        Lorem, ipsum dolor sit amet consectetu
-                    </p>
+                        maiores expedita earum?
                 </div>
             </div>
             <div class="col-lg-8 col-sm-11">
                 <div class="div-der">
-                    <img id="icono-div-iz" src="../svg/lectura/recording.svg" />
-                    <form id="formulario">
-                        <div class="form-iz">
-                            <label for="name"></label>
-                            <input style="padding: 5%; font-size: 20px" class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="card number" /> <br />
-                            <label for="name"></label>
-                            <input style="padding: 5%; font-size: 20px" class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="pin" /> <br />
-                            <label for="name"></label>
-                            <input style="padding: 5%; font-size: 20px" class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="**/**" />
-                        </div>
-                    </form>
-                        <div  id="icono-div-iz-inf">
+                    <div class="p-inputs">
+                        <form method="get">
+                            <input class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="card number" required minlength="10"/>
+                            <input class="suscripcion-formato-input-pag-2" type="password" name="pin" placeholder="pin" />
+                            <input class="suscripcion-formato-input-pag-2" type="password" name="expiracion" placeholder="**/**" required minlength="4" />
+                        </form>
+                        <div id="icono-div-iz-inf">
                             <img src="../svg/accion/recorded.svg" />
                         </div>
-                    </p>
-                    
+                    </div>
                 </div>
             </div>
 
         </div>
         <!-- FOOTER/NAV BAR -->
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-sm-8">
                 <h1>kiss</h1>
             </div>
-            <div class="col-8 botones-container-suscripcion">
+            <div class="col-lg-8 col-sm-11 botones-container-suscripcion">
                 <button style="background-color: white" class="boton-derecho-suscripcion">
                     <a href="https://ffernandafl.github.io/Techno-Gurus/src/html/suscripcion(1).html">
                         <img class="icon-buttons" src="../svg/btn-inferior/atras.svg" />
