@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css" />
     <link rel="stylesheet" href="../css/kiss.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -11,6 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Roboto+Slab:wght@500&display=swap"
         rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        
     <title>Login</title>
 </head>
 
@@ -25,25 +29,32 @@
 
         <!-- CONTENEDOR -->
 
+
         <div class="row">
             <div class="col-6">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="div-der">
-                    <img id="icono-div-iz" src="../svg/lectura/recording.svg" />
-                    <p>
-                        <div class="p-inputs">
-                            <div class="inputs">
-                                <input style="margin: 10%; font-size: 35px;" type="email" name="email" placeholder="email"/>
-                                <input style="margin: 10%; font-size: 35px;" type="password" name="password" placeholder="key"/>
-                            </div>
+                    <a style="color:black" href="https://ffernandafl.github.io/Techno-Gurus/index.html">
+                        <img id="icono-div-iz" src="../svg/lectura/remember.svg" />
+                        <img src="" alt="">
+                    </a>
+                    <p></p>
+                    <div class="p-inputs">
+                        <div class="inputs">
+                            <form action="../html/keepit.html" method="get">
+                            <input style="margin: 10%; font-size: 35px;" type="email" name="email" placeholder="email" id="email" required onblur="validarFormulario();"/>
+                            <input style="margin: 10%; font-size: 35px;" type="password" name="password" placeholder="key" id="key" required minlength="6"/>
+                            <input type="image" src="../svg/out/accion/unlocked.svg" />
+                        </form>
                         </div>
-                        <div  id="icono-div-iz-inf">
-                            <a href="../html/hello-stupid.html">
-                                <img src="../svg/accion/recorded.svg" />
-                            </a>
+                    </div>
+                        <div id="icono-div-iz-inf">
+                                <a style="color:black">
+                                    <img class="icon-buttons"src="../svg/out/accion/unlocked.svg"/>
+                                </a>
                         </div>
-                    </p>
+                   <p></p>
                     
                 </div>
             </div>
@@ -52,6 +63,15 @@
         <!-- FOOTER/NAV BAR -->
         <div>
             <h1>kiss</h1>
+            <div class="botones-container">
+
+                <a style="color:black" href="../html/signup1.html">
+                    <button class="boton-derecho">
+                        <h1 class="boton-texto">signup</h1>
+                        <img class="icon-buttons" src="../svg/out/singin.svg" />
+                    </button>
+                </a>
+            </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -60,5 +80,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
             crossorigin="anonymous"></script>
+            <script src="../js/login.js"></script>
 </body>
 </html>

@@ -62,14 +62,19 @@
                 <div class="div-der">
                     <img id="icono-div-iz" src="../svg/lectura/recording.svg" />
                     <div class="p-inputs">
-                        <input class="entrada" type="text" name="name" placeholder="name" />
-                        <input class="entrada" type="email" name="email" placeholder="email" />
-                        <input class="entrada" type="asunto" name="asunto" placeholder="asunto" />
+                        <form action="../html/contact-2.html" method="get">
+                        <input class="entrada" type="text" name="name" placeholder="name" required minlength="6"/>
+                        <input class="entrada" type="email" name="email" placeholder="email" required onblur="validarFormulario();" />
+                        <input class="entrada" type="asunto" name="asunto" placeholder="asunto" required minlength="25" />
+                        <div id="icono-div-iz-inf">
+                        <input type="image" src="../svg/accion/send.svg"/>
+                    </div>
+                    </form>
                     </div>
                     <div id="icono-div-iz-inf">
-                        <a style="color:black" href="../html/contact-2.html">
+                        <!-- <a style="color:black" href="../html/contact-2.html">
                             <img src="../svg/accion/send.svg" />
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
