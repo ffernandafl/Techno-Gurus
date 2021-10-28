@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Roboto+Slab:wght@500&display=swap"
         rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>suscription alert</title>
 </head>
 
@@ -38,19 +40,13 @@
             </div>
             <div class="col-lg-8 col-sm-11">
                 <div class="div-der">
-                    <img id="icono-div-iz" src="../svg/lectura/pause.svg" />
-                    <form id="formulario">
-                        <div class="form-iz">
-                            <label for="name"></label>
-                            <input style="padding: 5%; font-size: 20px" class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="card number" /> <br />
-                            <label for="name"></label>
-                            <input style="padding: 5%; font-size: 20px" class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="pin" /> <br />
-                            <label for="name"></label>
-                            <input style="padding: 5%; font-size: 20px" class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="**/**" />
-                        </div>
-                    </form>
-                    </p>
-                    
+                    <div class="p-inputs">
+                        <form method="get">
+                            <input class="suscripcion-formato-input-pag-2" type="text" name="name" placeholder="card number" required minlength="10"/>
+                            <input class="suscripcion-formato-input-pag-2" type="password" name="pin" placeholder="pin" />
+                            <input class="suscripcion-formato-input-pag-2" type="password" name="expiracion" placeholder="**/**" required minlength="4" />
+                        </form>
+                    </div>
                 </div>
             </div>
 
