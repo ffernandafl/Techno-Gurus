@@ -7,10 +7,10 @@
     margin-bottom: var(--margen);
 } 
 @font-face {
-    font-family: 'Playfair Display', serif;
+    font-family: Play;
     src: url(../src/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf);
 }@font-face {
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto;
     src: url(../src/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
 }
 
@@ -36,6 +36,7 @@
 }
 h1 {
     font-family: 'Playfair Display', serif;
+    font-family: Playfair;
     float:left;
     margin: var(--margen);
     font-size:100px;
@@ -58,6 +59,7 @@ h1 {
         margin-left: 70px;
         margin-top: 18px;
         font-family: 'Roboto Slab', serif;
+        
         font-size: 48;
     }
 
