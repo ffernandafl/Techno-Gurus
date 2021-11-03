@@ -36,7 +36,6 @@
 }
 h1 {
     font-family: 'Playfair Display', serif;
-    font-family: Playfair;
     float:left;
     margin: var(--margen);
     font-size:100px;
