@@ -6,6 +6,13 @@
     margin-right: var(--margen);
     margin-bottom: var(--margen);
 } 
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(../src/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf);
+}@font-face {
+    font-family: 'Roboto Slab', serif;
+    src: url(../src/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+}
 
 /* HEADER */
 #main-header {
