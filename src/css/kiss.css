@@ -8,10 +8,10 @@
 } 
 @font-face {
     font-family: Play;
-    src: url(../src/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf);
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf);
 }@font-face {
     font-family: Roboto;
-    src: url(../src/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+    src: url(../fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
 }
 
 /* HEADER */
