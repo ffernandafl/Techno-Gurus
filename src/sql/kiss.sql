@@ -1,5 +1,7 @@
 CREATE DATABASE kiss;
 
+USE kiss;
+
 CREATE TABLE users(
     id_user      INT AUTO_INCREMENT NOT NULL,
     full_name    VARCHAR(255) NOT NULL,
