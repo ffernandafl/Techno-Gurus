@@ -179,4 +179,85 @@ window.onload=function(){
         document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
         document.getElementById("icono-title").innerHTML="Iconografía"
     }
+    elemento = document.getElementById("remember");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para volver a leer";
+        document.getElementById("icono-title").innerHTML="remember"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("kiss-icons");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Te explica nuestra iconografia";
+        document.getElementById("icono-title").innerHTML="kiss icons"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("bye");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para cerrar sesion / salir";
+        document.getElementById("icono-title").innerHTML="bye"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("koment-us");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para compartirnos tus comentarios";
+        document.getElementById("icono-title").innerHTML="koment us"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("unlocked");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para logearte";
+        document.getElementById("icono-title").innerHTML="unlocked"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("singin");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para registrarte con nosotros";
+        document.getElementById("icono-title").innerHTML="sing in"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("pause");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para detener tu escritura mientras se guarda o se cancela tu kiss";
+        document.getElementById("icono-title").innerHTML="pause"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("seen");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para leer por primera vez";
+        document.getElementById("icono-title").innerHTML="seen"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
+    elemento = document.getElementById("kiss-team");
+    elemento.onmouseover=function(e){
+        document.getElementById("description-icon").innerHTML="Icono utilizado para enviarte a nuestra página para conocernos";
+        document.getElementById("icono-title").innerHTML="kiss-team"
+    };
+    elemento.onmouseout=function(e){
+        document.getElementById("description-icon").innerHTML="Te explicamos nuestra iconografia para que entiendas como funciona el codigo del amor, tenemos un motivo especial para explicartelo,puesto que todos necesitamos ayuda alguna vez en nuestra primera date,desde que llegaste eres importante para nosotros puedes hacer uso de este consejo las veces que lo desees.";
+        document.getElementById("icono-title").innerHTML="Iconografía"
+    }
 }
