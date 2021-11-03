@@ -62,8 +62,7 @@ nav {
     border: 3px solid black;
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    /* margin: var(--margen);
-    margin-right: (var(--margen))/2; */
+    margin-right: 70px;
 }
     .div-iz h3 {
         margin-left: 70px;
@@ -89,9 +88,7 @@ nav {
     border: 3px solid black;
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    /* margin: 1%;
-    margin-left: (var(--margen))/2; */
-    /* height: 400px; */
+    margin-right: 70px;
 }
 
     .div-der h3 {
