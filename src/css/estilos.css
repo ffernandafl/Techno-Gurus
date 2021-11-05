@@ -5,7 +5,7 @@
 
 body{
     color: black;
-    background-color: var(--kiss) !important;
+    /* background-color: var(--kiss) !important; */
 }
 
 #contenedor {
@@ -135,7 +135,6 @@ nav {
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 56px;
     float: right;
-    background-color: var(--kiss) !important;
  } 
 .boton-derecho {
     margin: var(--margen);
@@ -249,7 +248,7 @@ nav {
     width: 350px;
     height: 75px;
     margin: var(--margen);
-    background-color: var(--kiss) !important;
+    
 }
 
         /* pag 2 */
@@ -258,7 +257,7 @@ nav {
     border: 3px solid black;
     border-radius: 56px;
     margin: var(--margen);
-    background-color: var(--kiss) !important;
+    
 }
 
 .boton-derecho-suscripcion {
