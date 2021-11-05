@@ -1,6 +1,13 @@
 :root {
     --margen:2%;
+    --kiss: #f5e7c0;
 }
+
+body{
+    color: black;
+    background-color: var(--kiss) !important;
+}
+
 #contenedor {
     margin-left: var(--margen);
     margin-right: var(--margen);
@@ -143,7 +150,7 @@ textarea {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: var(--kiss) !important;
     font-size: 24px;
   }
 
@@ -154,6 +161,7 @@ textarea {
     border-radius: 56px;
     box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.25);
     float: right;
+    background-color: var(--kiss) !important;
  } 
 .boton-derecho {
     margin: var(--margen);
