@@ -13,18 +13,11 @@ CREATE TABLE users(
 );
 
 CREATE TABLE post(
-    id_post     INT AUTO_INCREMENT NOT NULL,
+    id_post         INT AUTO_INCREMENT NOT NULL,
     id_user         INT NOT NULL,
-    id_post_origin  INT NOT NULL,
     title           VARCHAR(50) NOT NULL,
     body            NVARCHAR(4000) NOT NULL, 
+    id_post_father  INT NULL,
 
     CONSTRAINT pk_comment PRIMARY KEY (id_comment)
-);
-
-CREATE TABLE post_origin(
-    id_post_origin  INT AUTO_INCREMENT NOT NULL,
-    id_post         INT NOT NULL
-
-    CONSTRAINT pk_post_origin PRIMARY KEY (id_post_origin)
 );
