@@ -12,21 +12,12 @@ CREATE TABLE users(
     CONSTRAINT pk_user PRIMARY KEY (id_user)
 );
 
-CREATE TABLE comments(
-    id_comment      INT AUTO_INCREMENT NOT NULL,
+CREATE TABLE post(
+    id_post         INT AUTO_INCREMENT NOT NULL,
     id_user         INT NOT NULL,
-    id_post_origin  INT NOT NULL,
     title           VARCHAR(50) NOT NULL,
     body            NVARCHAR(4000) NOT NULL, 
+    id_post_father  INT NULL,
 
     CONSTRAINT pk_comment PRIMARY KEY (id_comment)
-);
-
-CREATE TABLE post_origin(
-    id_post_origin  INT AUTO_INCREMENT NOT NULL,
-    id_user         INT NULL,
-    title           VARCHAR(50) NOT NULL,
-    body            NVARCHAR(4000) NOT NULL, 
-
-    CONSTRAINT pk_post_origin PRIMARY KEY (id_post_origin)
 );

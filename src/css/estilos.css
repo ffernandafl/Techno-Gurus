@@ -1,6 +1,13 @@
 :root {
     --margen:2%;
+    --kiss: #f5e7c0;
 }
+
+body{
+    color: black;
+    /* background-color: var(--kiss) !important; */
+}
+
 #contenedor {
     margin-left: var(--margen);
     margin-right: var(--margen);
@@ -241,6 +248,7 @@ nav {
     width: 350px;
     height: 75px;
     margin: var(--margen);
+    
 }
 
         /* pag 2 */
@@ -249,6 +257,7 @@ nav {
     border: 3px solid black;
     border-radius: 56px;
     margin: var(--margen);
+    
 }
 
 .boton-derecho-suscripcion {
