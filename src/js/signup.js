@@ -1,7 +1,14 @@
+function validarFormulario() {
+    var email = document.getElementById('email');
+    if (!(/\S+@\S+\.\S+/.test(email))){
+        return false;
+    }
+}
+
 const $formLogin = document.querySelector('#formSignup');
 const $name = document.querySelector('#name');
 const $username = document.querySelector('#email');
-const $password = document.querySelector('#password');
+const $password = document.querySelector('#key');
 
 $formLogin.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -21,21 +28,17 @@ $formLogin.addEventListener('submit', (e) => {
             headers: {
                 'Content-type': 'application/json'
             }
-        })/* .then(resp => {
-            const token = resp.headers.get('Authorization');
-            
-            if(token && token.includes('Bearer') && resp.ok) {
-                localStorage.setItem('token', token);
-                console.log(token);
+        }).then(resp  => resp.json()).then(data => {
+            alert('Usuario registrado con éxito');
+            if(resp.ok) {
                 url = window.location;
                 const path = url.pathname.substring(0, url.pathname.lastIndexOf('/') + 1)
-                location.href = path +  'keepit.html';
+                location.href = path +  'first-hello-stupid.html';
             } else {
-                localStorage.removeItem('token');
-                alert('Contraseña o usuario incorrecto. Vuelve a intentarlo.');
-                //emailError.textContent = 'Usuario o contraseña incorrecta';
+                alert('Usuario ya registrado');
             }
-        }) */
+            
+        });
     }
 
 })

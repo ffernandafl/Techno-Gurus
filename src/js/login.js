@@ -34,7 +34,7 @@ $formLogin.addEventListener('submit', (e) => {
                 console.log(token);
                 url = window.location;
                 const path = url.pathname.substring(0, url.pathname.lastIndexOf('/') + 1)
-                location.href = path +  'keepit.html';
+                location.href = path +  'first-hello-stupid.html';
             } else {
                 localStorage.removeItem('token');
                 alert('Contraseña o usuario incorrecto. Vuelve a intentarlo.');
