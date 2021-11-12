@@ -1,10 +1,3 @@
-function validarFormulario() {
-    var email = document.getElementById('username');
-    if (!(/\S+@\S+\.\S+/.test(email))){
-        return false;
-    }
-}
-
 const $formLogin = document.querySelector('#formLogin');
 const $username = document.querySelector('#username');
 const $password = document.querySelector('#password');
@@ -34,10 +27,10 @@ $formLogin.addEventListener('submit', (e) => {
                 console.log(token);
                 url = window.location;
                 const path = url.pathname.substring(0, url.pathname.lastIndexOf('/') + 1)
-                location.href = path +  'keepit.html';
+                location.href = path +  'ok.html';
             } else {
                 localStorage.removeItem('token');
-                alert('Contraseña o usuario incorrecto. Vuelve a intentarlo.');
+                alert('error');
                 //emailError.textContent = 'Usuario o contraseña incorrecta';
             }
         })
