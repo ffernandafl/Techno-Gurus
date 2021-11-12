@@ -43,11 +43,12 @@
                     <p></p>
                     <div class="p-inputs">
                         <div class="inputs">
-                            <form action="../html/keepit.html" method="get">
-                            <input style="margin: 10%; font-size: 35px;" type="email" name="email" placeholder="email" id="email" required onblur="validarFormulario();"/>
-                            <input style="margin: 10%; font-size: 35px;" type="password" name="password" placeholder="key" id="key" required minlength="6"/>
+                            <form action="../html/keepit.html" method="POST" id="formLogin">
+                                <input style="margin: 10%; font-size: 35px;" type="email" name="email" placeholder="email" id="username" required onblur="validarFormulario();"/>
+                                <input style="margin: 10%; font-size: 35px;" type="password" name="password" placeholder="key" id="password" required minlength="4"/>
                             <div class="div-btn-enviar">
-                            <input id="btn-enviar" type="image" src="../svg/out/accion/unlocked.svg" /></div>
+                                <input id="btn-enviar" type="image" src="../svg/out/accion/unlocked.svg" />
+                            </div>
                         </form>
                         </div>
                     </div>
