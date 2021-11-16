@@ -29,14 +29,10 @@ $formLogin.addEventListener('submit', (e) => {
                 'Content-type': 'application/json'
             }
         }).then(resp  => resp.json()).then(data => {
-            alert('Usuario registrado con éxito');
-            if(resp.ok) {
-                url = window.location;
-                const path = url.pathname.substring(0, url.pathname.lastIndexOf('/') + 1)
-                location.href = path +  'first-hello-stupid.html';
-            } else {
-                alert('Usuario ya registrado');
-            }
+            /* alert('Usuario registrado con éxito'); */
+            url = window.location;
+            const path = url.pathname.substring(0, url.pathname.lastIndexOf('/') + 1)
+            location.href = path +  'first-hello-stupid.html';
             
         });
     }

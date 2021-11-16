@@ -1,8 +1,8 @@
-const $kiss = document.querySelector('#kiss');
+const $formPost = document.querySelector('#formPost');
 const $title = document.querySelector('#title');
 const $body = document.querySelector('#body');
 
-$kiss.addEventListener('onclick', (e) => {
+$formPost.addEventListener('submit', (e) => {
     e.preventDefault();
 
     const title = $title.value;
@@ -20,18 +20,7 @@ $kiss.addEventListener('onclick', (e) => {
             }
         }).then(resp  => resp.json()).then(data => {
             alert('Haz dado un kiss :*');
-            if(resp.ok) {
-                window.onclick=function(){
-                    var element1=document.getElementById('title');
-                    var element2=document.getElementById('body');
-                    document.getElementById("title").innerHTML="";
-                    document.getElementById("body").innerHTML="";
-                }
-            } else {
-                alert('Completa los espacios correctos.');
-            }
             
-        });
+    });
     }
-
 })
